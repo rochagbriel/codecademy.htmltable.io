@@ -1,0 +1,36 @@
+html {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+th {
+    border: 3px solid darkred;
+    background-color: darkred;
+    color: antiquewhite;
+}
+
+td {
+    border: 1px solid darkred;
+    padding: 5px 15px;
+}
+
+table {
+    border: 3px solid darkred;
+    margin: 30px;
+    padding: 2px;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+    background-color: rgb(213, 194, 194);
+}
